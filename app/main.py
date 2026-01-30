@@ -16,7 +16,7 @@ def paginate(results, page, page_size):
     end = start + page_size
     return results[start:end]
 
-def api_pod(request: Request):
+def swapi_proxy(request: Request):
     resource = request.args.get("resource")
     name = request.args.get("name")
     sort = request.args.get("sort")
