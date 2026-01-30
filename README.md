@@ -44,6 +44,18 @@ SWAPI (https://swapi.dev)
 
 ---
 
+🌐 API Pública (Apigee)
+
+A API está publicada e exposta via Apigee X (API Gateway), com HTTPS e autenticação por API Key.
+
+Base URL
+https://<SEU_IP>.nip.io/swapi
+
+🔐 Autenticação: o acesso é protegido por API Key (Apigee).
+A chave pode ser fornecida separadamente para fins de avaliação.
+
+---
+
 ## 🚀 Endpoint Principal
 
 ```
