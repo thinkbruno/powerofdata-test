@@ -49,7 +49,7 @@ SWAPI (https://swapi.dev)
 A API está publicada e exposta via Apigee X (API Gateway), com HTTPS e autenticação por API Key.
 
 Base URL
-https://<SEU_IP>.nip.io/swapi
+https://34.149.129.81.nip.io/swapi
 
 🔐 Autenticação: o acesso é protegido por API Key (Apigee).
 A chave pode ser fornecida separadamente para fins de avaliação.
@@ -76,7 +76,7 @@ GET /swapi
 ### Exemplo de Uso
 
 ```bash
-curl "https://<SEU_IP>.nip.io/swapi?resource=people&name=Luke&apikey=SUA_API_KEY"
+curl "https://34.149.129.81.nip.io/swapi?resource=people&name=Luke&apikey=SUA_API_KEY"
 ```
 
 ---
